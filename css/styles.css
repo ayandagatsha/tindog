@@ -1,0 +1,175 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+h1, h3 { font-family: 'Montserrat-Black', sans-serif;   
+    font-size: 2.5rem;  
+    line-height: 1.5;  
+    font-weight: 900;
+}
+
+
+h2 {
+    font-family: 'Montserrat-Bold', sans-serif;   
+    font-size: 3.5rem;  
+    line-height: 1.5;  
+}
+
+/* navigation-bar 
+ */
+
+.navbar {
+    padding: 0 0 4.5rem;
+    text-align: right;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat-light'
+}
+
+/* Download buttons */
+
+.download-btn{
+    margin: 5% 3% 5% 0
+}
+
+/* Title image */
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    left:15%;
+}
+
+.img-div {
+    text-align: right;
+    position: relative;
+}
+
+/* ---------------------- challenge starting*/
+/* Features content */
+
+.features-content{
+    text-align: center;
+}
+
+.icon{
+    color: #ef8172;
+    font-size: 3.5rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+.feature-h3{
+    font-family: 'Montserrat-bold'
+}
+
+#features{
+    padding: 15% 0 15% 0;
+    background-color: white;
+    position: relative;
+}
+
+.icon-div{
+    margin-bottom: 10px; 
+}
+
+.features-para{
+    color: #8f8f8f;
+}
+
+
+/* Testimonial section and press */
+
+#testimonials{
+    padding: 15% 0 15% 0;
+    text-align: center;
+    background-color:#ff4c68;
+    color:white;
+}
+
+.testimonial-image{
+    width:10%;
+    border-radius:100%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#press{
+    background-color:#ff4c68;
+    text-align: center;
+    padding: 3%;
+}
+
+
+.press-images{
+    width:15%;
+    margin:20px 20px 50px;
+}
+
+
+/* pricing */
+
+#pricing{
+    padding: 100px;
+}
+
+.price-para{
+    margin-bottom: 50px ;
+}
+
+/* cta */
+
+#cta{
+    background-color:#ff4c68;
+    text-align: center;
+ color: white;
+   padding-top: 7%;
+  
+}
+
+/* footer */
+#footer{
+    text-align: center;
+    color: #8f8f8f;
+    padding-top: 7%;
+}
+
+.foot-icons{
+margin: 5px;
+
+}
+@media (max-width: 1028px){
+    #title{
+        text-align:center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
